@@ -21,7 +21,7 @@
 			if(function_exists('mysql_close_all_connections')){
 				mysql_close_all_connections();
 			}
-		}catch(Exeption $e){
+		}catch(Exception $e){
 			echo $e;
 		}
 	}
